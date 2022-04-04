@@ -3,36 +3,50 @@
         "id": 1,
         "name": "John Smith",
         "rating": 4,
-        "img": "https://images.unsplash.com/photo-1557862921-37829c790f19?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80"
+        "img": "https://images.unsplash.com/photo-1557862921-37829c790f19?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80",
+        "details":"This is my truck, mine is exactly this build and color, I'm averaging over all 40 MPG, 80% of my driving in city, I really like, the 0-60 times is very misleading, with the elec motor the off the line is impressive.  OF course I can't wait for the PHEV version...",
+        "date":"29 March 2020"
     },
     {
         "id": 2,
         "name": "Mary Williams",
         "rating": 4.5,
-        "img": "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fHdvbWFufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+        "img": "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fHdvbWFufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "details":"Definitely high up on my list of my next purchased,  Saw a bunch in person at the Philly Auto Show, and was really impressed.  I would definitely do the hybrid version as I think that would better for the sort of driving that I do.",
+        "date":"12 January 2021"
     },
     {
         "id": 3,
         "name": "Linda Brown",
         "rating": 3,
-        "img": "https://images.unsplash.com/photo-1594744803329-e58b31de8bf5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8d29tYW58ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+        "img": "https://images.unsplash.com/photo-1594744803329-e58b31de8bf5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8d29tYW58ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+        "details":"Hate to admit it but the whole killing off cara and focusing on trucks thing really worked out well for Ford. Just look at what they haveve been introducing lately (Bronco, Bronco Sport, Maverick, Mach-E) compared to the trucks they were churning out just a few years ago (the mediocre Escape, the ancient Edge, the overpriced Explorer) when they were still also investing in Fusions and Fiestas.",
+        "date":"18 December 2019"
+    
     },
     {
         "id": 4,
         "name": "Peter Jackson",
         "rating": 5,
-        "img": "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+        "img": "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80",
+        "details":"I bought one of these a few months ago for 27k out the door. If you're in the market for one I definitely recommend the xlt lux package that includes leather wrapped heated steering wheel, spray-in bedliner and more. I am currently averaging 40+mpg around town. Unbelievable value compared to new car prices today. Ford absolutely knocked this out of the park. 10/10 would recommend to anyone in the market for a new car or truck.",
+        "date":"8 September 2019"
     },
     {
         "id": 5,
         "name": "Elizabeth Miller",
         "rating": 4,
-        "img": "https://images.unsplash.com/photo-1567532939604-b6b5b0db2604?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8d29tYW58ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+        "img": "https://images.unsplash.com/photo-1567532939604-b6b5b0db2604?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8d29tYW58ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+        "details":"Not very often you see incredible value for money, but Ford have absolutely smashed it out of the park with the Maverick.",
+        "date":"1 June 2018"
     },
     {
         "id": 6,
         "name": "Robert Brown",
         "rating": 3,
-        "img": "https://images.unsplash.com/photo-1564564321837-a57b7070ac4f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1752&q=80"
+        "img": "https://images.unsplash.com/photo-1564564321837-a57b7070ac4f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1752&q=80",
+        "details":"This truck has better payload than most mid-sizes and some higher end full size pickups. It is not a tow rig, but it will certainly haul anything you can fit in that little bed. Imagine a 2.0T with a real automatic and hybridized. They would not have to set the price under 30k for that.",
+        "date":"12 April 2018"
+
     }
 ]
