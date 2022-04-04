@@ -28,16 +28,17 @@ const Dashboard = () => {
       });
   }, []);
   return (
-    <div className="grid grid-cols-2 gap-x-4 p-7 m-14 gap-y-12">
+    <div className="grid grid-cols-1 md:grid-cols-2 md:gap-x-4 p-7 md:m-14 md:gap-y-12 m-4">
       <div className="line-chart">
-        <h3 className="text-violet-600 text-xl text-center font-semibold mb-5 mx-auto  w-[200px]">
+        <h3 className="text-gray-600 text-xl text-center font-semibold mb-5 mx-auto  w-[200px]">
           Monthwise Sell
         </h3>
         <LineChart
+          style={{ maxwidth: "90vw" }}
           width={450}
           height={250}
           data={profit}
-          margin={{ top: 5, right: 30, left: 20, bottom: 5 }}
+          margin={{ top: 5, right: 20, left: 0, bottom: 5 }}
         >
           <CartesianGrid strokeDasharray="3 3" />
           <XAxis dataKey="month" />
@@ -48,14 +49,14 @@ const Dashboard = () => {
         </LineChart>
       </div>
       <div className="area-chart">
-        <h3 className="text-violet-600 text-xl text-center font-semibold mb-5 mx-auto ">
+        <h3 className="text-gray-600 text-xl text-center font-semibold mb-5 mx-auto ">
           Investment VS Revenue
         </h3>
         <AreaChart
           width={450}
           height={250}
           data={profit}
-          margin={{ top: 10, right: 30, left: 0, bottom: 0 }}
+          margin={{ top: 10, right: 20, left: 0, bottom: 0 }}
         >
           <defs>
             <linearGradient id="colorUv" x1="0" y1="0" x2="0" y2="1">
@@ -88,7 +89,7 @@ const Dashboard = () => {
         </AreaChart>
       </div>
       <div className="bar-chart">
-        <h3 className="text-violet-600 text-xl text-center font-semibold mb-5 mx-auto ">
+        <h3 className="text-gray-600 text-xl text-center font-semibold mb-5 mx-auto ">
           Investment VS Revenue
         </h3>
         <BarChart width={450} height={250} data={profit}>
@@ -102,13 +103,13 @@ const Dashboard = () => {
         </BarChart>
       </div>
       <div className="scattered-chart">
-        <h3 className="text-violet-600 text-xl text-center font-semibold mb-5 mx-auto ">
+        <h3 className="text-gray-600 text-xl text-center font-semibold mb-5 mx-auto ">
           Investment VS Revenue
         </h3>
         <ScatterChart
           width={450}
           height={250}
-          margin={{ top: 20, right: 20, bottom: 10, left: 10 }}
+          margin={{ top: 20, right: 20, bottom: 10, left: 0 }}
         >
           <CartesianGrid strokeDasharray="3 3" />
           <XAxis dataKey="month" name="stature" />

@@ -3,7 +3,7 @@ import "./Card.css";
 
 const Card = ({ review }) => {
   return (
-    <div className="card p-3 mx-auto">
+    <div className="card p-3 mx-auto shadow-lg">
       <div className="flex items-center">
         <img className="card-image" src={review.img} alt="person1"></img>
         <h3 classname="text-xl font-semibold">{review.name}</h3>
