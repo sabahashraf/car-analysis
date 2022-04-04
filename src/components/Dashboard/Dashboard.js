@@ -28,9 +28,11 @@ const Dashboard = () => {
       });
   }, []);
   return (
-    <div className="chart-container">
+    <div className="grid grid-cols-2 gap-x-4 p-7 m-14 gap-y-12">
       <div className="line-chart">
-        <h3>Monthwise Sell</h3>
+        <h3 className="text-violet-600 text-xl text-center font-semibold mb-5 mx-auto  w-[200px]">
+          Monthwise Sell
+        </h3>
         <LineChart
           width={450}
           height={250}
@@ -46,7 +48,9 @@ const Dashboard = () => {
         </LineChart>
       </div>
       <div className="area-chart">
-        <h3>Investment VS Revenue</h3>
+        <h3 className="text-violet-600 text-xl text-center font-semibold mb-5 mx-auto ">
+          Investment VS Revenue
+        </h3>
         <AreaChart
           width={450}
           height={250}
@@ -84,7 +88,9 @@ const Dashboard = () => {
         </AreaChart>
       </div>
       <div className="bar-chart">
-        <h3>Investment VS Revenue</h3>
+        <h3 className="text-violet-600 text-xl text-center font-semibold mb-5 mx-auto ">
+          Investment VS Revenue
+        </h3>
         <BarChart width={450} height={250} data={profit}>
           <CartesianGrid strokeDasharray="3 3" />
           <XAxis dataKey="month" />
@@ -96,7 +102,9 @@ const Dashboard = () => {
         </BarChart>
       </div>
       <div className="scattered-chart">
-        <h3>Investment VS Revenue</h3>
+        <h3 className="text-violet-600 text-xl text-center font-semibold mb-5 mx-auto ">
+          Investment VS Revenue
+        </h3>
         <ScatterChart
           width={450}
           height={250}
