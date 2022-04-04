@@ -1,10 +1,9 @@
+
 # Car Analysis
 
 
 
 ## About this project
-
-***
 
 * This website is all about customers' reviews on cars.
 * The homepage shows various cars.
